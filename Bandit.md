@@ -204,7 +204,7 @@
 4.  `nmap -sV -p 31000-32000 localhost`
 5.  `openssl s_client -connect localhost:31518`
 6. `paste password for bandit 16 cluFn7wTiGryunymYOu4RcffSxQluehd`
-7. `openssl s_client -connect localhost:31790
+7. `openssl s_client -connect localhost:31790`
 8. `paste password for bandit 16 cluFn7wTiGryunymYOu4RcffSxQluehd`
 9. copy the rsa key that was found 
 
@@ -217,7 +217,7 @@ Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTuDSt2mcNn4rhAL+JF
 2. `cd tmp`
 3. `mkdir randomkeyssh`
 4. `nano ssh.key`
-5. past found ssh key 
+5. paste found ssh key 
 6. `ssh -i ssh.key bandit17@localhost`
 7. `chmod 400 ssh.key`
 8. `ssh -i ssh.key bandit17@localhost`
