@@ -191,7 +191,7 @@
 
 1.  `ssh bandit15@bandit.labs.overthewire.org -p 2220` and enter password
 2. `openssl localhost -p 30001`
-3. `man openssl
+3. `man openssl`
 4. `10  openssl s_client -connect localhost:30001`
 5. `enter password for bandit 15 BfMYroe26WYalil77FoDi9qh59eK5xNr`
 6. password for bandit16: cluFn7wTiGryunymYOu4RcffSxQluehd
