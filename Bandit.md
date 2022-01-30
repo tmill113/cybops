@@ -98,13 +98,13 @@
 1. `ssh bandit10@bandit.labs.overthewire.org -p 2220` and enter password
 2. `ls`
 3. `cat data.txt`
-4. `echo 'VGhlIHBhc3N3b3JkIGlzIElGdWt3S0dzRlc4TU9xM0lSRnFyeEUxaHhUTkViVVBSCg=='  |base64 -d
+4. `echo 'VGhlIHBhc3N3b3JkIGlzIElGdWt3S0dzRlc4TU9xM0lSRnFyeEUxaHhUTkViVVBSCg=='  |base64 -d `
 5. password for bandit11: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR	
 
 **Level 11**
 
 1. `ssh bandit11@bandit.labs.overthewire.org -p 2220` and enter password
-2. `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'  
+2. `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'` 
 3. password for bandit12: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 **Level 12**
