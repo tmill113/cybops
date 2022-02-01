@@ -231,3 +231,8 @@ Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTuDSt2mcNn4rhAL+JF
 25. `cd bandit_pass/`
 26. `cat bandit17`
 27. password for bandit17: xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+
+**Bandit 17**
+
+1. `diff passwords.old passwords.new`
+2. password for bandit18: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
