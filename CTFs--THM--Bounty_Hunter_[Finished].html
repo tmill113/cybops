@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Bounty Hunter [Finished]</title>
+  <meta name="generator" content="CherryTree">
+  <link rel="stylesheet" href="res/styles3.css" type="text/css" />
+</head>
+<body>
+<div class='page'><h1 class='title'>Bounty Hunter [Finished]</h1><br/><br /><a href=""><img src="images/124-1.png" alt="images/124-1.png" /></a><br /><strong>After conducting an nmap scan we saw that 3 ports were open and the most interesting one was FTP and this was because it was able to login using default credentials so we then decided to try to login to the FTP server.</strong> <br /><br /><a href=""><img src="images/124-2.png" alt="images/124-2.png" /></a><br /><strong>After signing in to FTP we saw that there were 2 files named  locks.txt and task.txt we used GET to download both of these files on our local machine</strong> <br /><br /><a href=""><img src="images/124-3.png" alt="images/124-3.png" /></a><br /><strong>Looking at this txt flile it states that it was written by someone named lin we could potentially use this to brute force a login so we will try to brute force using hydra</strong><br /><br /><a href=""><img src="images/124-4.png" alt="images/124-4.png" /></a><br /><strong>The other text file contained what looked like passwords this could be used a word list for hydra and we could use that with the username lin </strong><br /><br /><a href=""><img src="images/124-5.png" alt="images/124-5.png" /></a><br /><strong> After running hydra we were able to find out that the password was RedDr4gonSynd1cat3</strong><br /><br /><a href=""><img src="images/124-6.png" alt="images/124-6.png" /></a><br /><strong>We then ssh&#39;d into the system using the credentials that we found </strong><br /><br /><a href=""><img src="images/124-7.png" alt="images/124-7.png" /></a><br /><strong> We then checked the users sudo permissions and was able to find that the user could run /bin/tar so we went to gtfobins and found a command that will escalate your privileges</strong><br /></div>
+</body>
+</html>

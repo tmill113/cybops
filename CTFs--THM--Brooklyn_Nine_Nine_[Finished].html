@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Brooklyn Nine Nine [Finished]</title>
+  <meta name="generator" content="CherryTree">
+  <link rel="stylesheet" href="res/styles3.css" type="text/css" />
+</head>
+<body>
+<div class='page'><h1 class='title'>Brooklyn Nine Nine [Finished]</h1><br/><a href=""><img src="images/123-1.png" alt="images/123-1.png" /></a><br /><strong>After conducting an nmap scan we saw that 3 ports were open and the most interesting one was FTP and this was becuase it was able to login using default credentials so we then decided to try to login to the FTP server.</strong><br /><br /><a href=""><img src="images/123-2.png" alt="images/123-2.png" /></a><br /><strong>After logging in to the server we saw there was a file there named note_to_jake and we used the GET command to get this file on put it on our local machine</strong><br /><br /><a href=""><img src="images/123-3.png" alt="images/123-3.png" /></a><br /><strong>This shows us that jake has a weak password so that means that if could possibly be brute forced.</strong><br /><br /><a href=""><img src="images/123-4.png" alt="images/123-4.png" /></a><br /><strong>We then used hydra to brute force jake&#39;s ssh login and we just used the rockyou wordlist after a bit of time it was able to find the password which was 987654321<br /></strong><br /><a href=""><img src="images/123-5.png" alt="images/123-5.png" /></a><br /><strong>Looking in the home directory we saw that there wa 3 profiles, so we looked at holt and saw that the flag was there.<br /></strong><br /><a href=""><img src="images/123-6.png" alt="images/123-6.png" /></a><br /><br /><strong>After finding the first flag we then looked at jakes permissions and saw that we had access to /usr/bin/less knowing this we went to gtfobins and saw that there was a command that can be used to get root</strong><br /><br /><a href=""><img src="images/123-7.png" alt="images/123-7.png" /></a><br /><strong>After execurting the command sudo less /etc/profile we were now root!</strong><br /><br /><a href=""><img src="images/123-8.png" alt="images/123-8.png" /></a></div>
+</body>
+</html>
